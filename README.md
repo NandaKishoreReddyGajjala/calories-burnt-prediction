@@ -6,7 +6,7 @@ for interactive predictions.
 
 | | |
 |---|---|
-| 🚀 Live app | https://calories-burnt-prediction.streamlit.app |
+| 🚀 Live app | [https://calories-burnt-prediction.streamlit.app](https://calories-burnt-prediction-xgb.streamlit.app/) |
 | 📓 Kaggle notebook | https://www.kaggle.com/code/nandakishorereddy1/calories-burnt-prediction-with-xgboost |
 | 💻 GitHub | https://github.com/NandaKishoreReddyGajjala/calories-burnt-prediction |
 
