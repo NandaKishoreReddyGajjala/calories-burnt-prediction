@@ -35,7 +35,7 @@ with col2:
     body_tmp = st.number_input("Body Temp (°C)",   min_value=36.0, max_value=41.0, value=37.5, step=0.1)
 
 # ── Predict ───────────────────────────────────────────────────────────────────
-if st.button("Predict Calories Burnt", type="primary", use_container_width=True):
+if st.button("Predict Calories Burnt", type="primary", width="stretch"):
     gender_enc = 0 if gender == "Male" else 1
     features   = np.array([[gender_enc, age, height, weight, duration, heart_rt, body_tmp]])
     prediction = model.predict(features)[0]
